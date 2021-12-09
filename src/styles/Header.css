@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  padding: 20px;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  height: 100%;
+  padding-right: 7px;
+}
+
+.header__title,
+.header__subtitle {
+  color: #ffffff;
+}
+
+.header__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-right: auto;
+}
+
+.header__subtitle {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
